@@ -127,6 +127,8 @@ body {
   outline: 1px solid #884636;
 }
 
+/* fade animation */
+
 @keyframes fade {
   from {
     opacity: 0;
@@ -139,6 +141,7 @@ body {
 .nav--active .nav__item {
   animation: fade 1s ease 0.2s forwards;
 }
+/*  */
 
 .hamburger {
   position: absolute;
